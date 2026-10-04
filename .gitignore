@@ -1,0 +1,14 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Java
+*.class
+target/
+build/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
