@@ -14,9 +14,9 @@ public class Ejercicio8 {
 
     public static void mostrarTareas(ArrayList<Tarea> tareas){
         for(Tarea tarea : tareas){
-            System.out.println(tarea.toString());
+            System.out.println(tarea);
         }
     }
-    
+
 }
 
