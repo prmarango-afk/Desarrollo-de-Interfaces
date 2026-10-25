@@ -62,5 +62,11 @@ public class Tarea {
         return("Titulo: "+titulo+" Descripcion: "+descripcion+" Completada: "+completada+" Prioridad: "+prioridad);
     }
 
+    public comprobarTitulo(String titulo){
+        if (titulo == null){
+            throw new IllegalArgumentException("El titulo no puede ser null");
+        }
+    }
+
 }
 
